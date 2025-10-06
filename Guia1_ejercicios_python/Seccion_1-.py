@@ -18,6 +18,6 @@ edad_actual = anio_actual - anio_nacimiento
 print("Mi edad actual es de:", edad_actual)
 #Declara una variable llamada pi con el valor 3.14159265359. Muestra un mensaje que diga “El valor aproximado de pi es 3.1416”.
 pi = 3.14159265359
-print("El valor aproximado de pi es:", round(pi, 4))
+print(f"El valor aproximado de pi es: {pi:.4f}")
 #Explica mediante un comentario qué diferencia hay entre una variable de tipo entero y una de tipo cadena.
 #Una variable de tipo int esta hecha para almacenar numeros enteros, las varoables de tipo str estan hechos para almacenar texto.
