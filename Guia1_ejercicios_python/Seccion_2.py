@@ -9,7 +9,7 @@ print("El doble de tu edad es:", doble_edad)
 num1 = int(input("Ingresa el primer numero: "))
 num2 = int(input("Ingresa el segundo numero: "))
 suma_de_ambos = num1+num2
-print("La suma de ambos numeros es: {suma_de_ambos}")
+print(f"La suma de ambos numeros es: {suma_de_ambos}")
 #Pide al usuario un número decimal y muestra su mitad.
 num_decimal = float(input("Ingresa tu numero decimal: "))
 mitad_num_decimal = num_decimal / 2
@@ -23,7 +23,7 @@ print("Tu edad aproximada es:", edad_aproximada)
 precio_producto = float(input("Ingrese el precio de los productos: "))
 unidades_producto = int(input("Ingrese la cantidad de productos "))
 precio_a_pagar = precio_producto * unidades_producto
-print(f"El precio total a pagar es de: $ {precio_a_pagar:.2}")
+print(f"El precio total a pagar es de: $ {precio_a_pagar:.2f}")
 #Pide al usuario un número entero y muestra el cuadrado de ese número
 numero_entero = int(input("Ingrese el numero entero al que le sacara el cuadrado "))
 num_al_cuadrado = numero_entero * numero_entero
